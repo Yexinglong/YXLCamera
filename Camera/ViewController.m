@@ -7,22 +7,41 @@
 //
 
 #import "ViewController.h"
-#import "MiYiCamera.h"
 #import <AVFoundation/AVFoundation.h>
-
-@interface ViewController ()
-
+#import "YXLCamera.h"
+#import "Masonry.h"
+@interface ViewController ()<YXLCameraDelegate>
+{
+    UIImageView *imagePre;
+}
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIButton *btn =[[UIButton alloc]initWithFrame:(CGRect){100,100,100,100}];
+    UIButton *btn =[UIButton new];
     btn.backgroundColor=[UIColor redColor];
+    [btn setTitle:@"屠龙宝刀点击就送" forState:UIControlStateNormal];
     [btn addTarget:self  action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
-    // Do any additional setup after loading the view, typically from a nib.
+    [btn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(@0);
+        make.left.equalTo(@0);
+        make.width.equalTo(@(kWindowWidth));
+        make.height.equalTo(@100);
+    }];
+    
+    imagePre =[UIImageView new];
+    imagePre.contentMode=UIViewContentModeScaleAspectFit;
+    [self.view addSubview:imagePre];
+    [imagePre mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(@100);
+        make.left.equalTo(@0);
+        make.width.equalTo(@(kWindowWidth));
+        make.height.equalTo(@(kWindowHeight-100));
+    }];
+    
 }
 
 -(void)click
@@ -31,11 +50,7 @@
     AVAuthorizationStatus authStatus = [AVCaptureDevice authorizationStatusForMediaType:mediaType];
     
     if(authStatus == AVAuthorizationStatusDenied){
-        
-        
-        
-        
-        
+
         NSLog(@"Denied");   //不允许的话
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示"
                                                         message:@"请在设备的 设置-隐私-相机中允许访问相机。"
@@ -72,14 +87,16 @@
         
     }
     else if(authStatus == AVAuthorizationStatusAuthorized){//允许访问
-        
-        MiYiCamera * picker =[[MiYiCamera alloc]init];
+        YXLCamera * picker =[[YXLCamera alloc]init];
+        picker.delegate=self;
         picker.view.backgroundColor=[UIColor blackColor];
         [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:YES];
-        
         [self presentViewController:picker animated:YES completion:nil];
         
     }
+}
+-(void)cameraImage:(UIImage *)image{
+    imagePre.image=image;
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BADAFDC1BE6043A007C1B8E /* Camera_Cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADAFCA1BE6043A007C1B8E /* Camera_Cancel@2x.png */; };
+		5BADAFDD1BE6043A007C1B8E /* Camera_Cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADAFCB1BE6043A007C1B8E /* Camera_Cancel@3x.png */; };
+		5BADAFDE1BE6043A007C1B8E /* Camera_Filming@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADAFCC1BE6043A007C1B8E /* Camera_Filming@2x.png */; };
+		5BADAFDF1BE6043A007C1B8E /* Camera_Filming@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADAFCD1BE6043A007C1B8E /* Camera_Filming@3x.png */; };
+		5BADAFE01BE6043A007C1B8E /* Camera_Flash_Auto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADAFCE1BE6043A007C1B8E /* Camera_Flash_Auto@2x.png */; };
+		5BADAFE11BE6043A007C1B8E /* Camera_Flash_Auto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADAFCF1BE6043A007C1B8E /* Camera_Flash_Auto@3x.png */; };
+		5BADAFE41BE6043A007C1B8E /* Camera_Flash_Off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADAFD21BE6043A007C1B8E /* Camera_Flash_Off@2x.png */; };
+		5BADAFE51BE6043A007C1B8E /* Camera_Flash_Off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADAFD31BE6043A007C1B8E /* Camera_Flash_Off@3x.png */; };
+		5BADAFE61BE6043A007C1B8E /* Camera_Flash_On@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADAFD41BE6043A007C1B8E /* Camera_Flash_On@2x.png */; };
+		5BADAFE71BE6043A007C1B8E /* Camera_Flash_On@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADAFD51BE6043A007C1B8E /* Camera_Flash_On@3x.png */; };
+		5BADAFE81BE6043A007C1B8E /* Camera_Flash_Open@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADAFD61BE6043A007C1B8E /* Camera_Flash_Open@2x.png */; };
+		5BADAFE91BE6043A007C1B8E /* Camera_Flash_Open@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADAFD71BE6043A007C1B8E /* Camera_Flash_Open@3x.png */; };
+		5BADAFEA1BE6043A007C1B8E /* Camera_Flip_Camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADAFD81BE6043A007C1B8E /* Camera_Flip_Camera@2x.png */; };
+		5BADAFEB1BE6043A007C1B8E /* Camera_Flip_Camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADAFD91BE6043A007C1B8E /* Camera_Flip_Camera@3x.png */; };
+		5BADAFEC1BE6043A007C1B8E /* Camera_Focus_Red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADAFDA1BE6043A007C1B8E /* Camera_Focus_Red@2x.png */; };
+		5BADAFED1BE6043A007C1B8E /* Camera_Focus_Red@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADAFDB1BE6043A007C1B8E /* Camera_Focus_Red@3x.png */; };
+		5BADAFF01BE6049D007C1B8E /* YXLCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BADAFEF1BE6049D007C1B8E /* YXLCamera.m */; };
+		5BADB00C1BE60751007C1B8E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BADAFF21BE60751007C1B8E /* Info.plist */; };
+		5BADB00D1BE60751007C1B8E /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BADAFF41BE60751007C1B8E /* MASCompositeConstraint.m */; };
+		5BADB00E1BE60751007C1B8E /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BADAFF71BE60751007C1B8E /* MASConstraint.m */; };
+		5BADB00F1BE60751007C1B8E /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BADAFF91BE60751007C1B8E /* MASConstraintMaker.m */; };
+		5BADB0101BE60751007C1B8E /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BADAFFB1BE60751007C1B8E /* MASLayoutConstraint.m */; };
+		5BADB0111BE60751007C1B8E /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BADAFFF1BE60751007C1B8E /* MASViewAttribute.m */; };
+		5BADB0121BE60751007C1B8E /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BADB0011BE60751007C1B8E /* MASViewConstraint.m */; };
+		5BADB0131BE60751007C1B8E /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BADB0031BE60751007C1B8E /* NSArray+MASAdditions.m */; };
+		5BADB0141BE60751007C1B8E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BADB0061BE60751007C1B8E /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		5BADB0151BE60751007C1B8E /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BADB0081BE60751007C1B8E /* View+MASAdditions.m */; };
+		5BADB0161BE60751007C1B8E /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BADB00B1BE60751007C1B8E /* ViewController+MASAdditions.m */; };
 		5BCE844B1B5C93C00001C1B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE844A1B5C93C00001C1B2 /* main.m */; };
 		5BCE844E1B5C93C00001C1B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE844D1B5C93C00001C1B2 /* AppDelegate.m */; };
 		5BCE84511B5C93C00001C1B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE84501B5C93C00001C1B2 /* ViewController.m */; };
@@ -17,28 +45,6 @@
 		5BCE846F1B5C94320001C1B2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCE846E1B5C94320001C1B2 /* AVFoundation.framework */; };
 		5BCE84711B5C943E0001C1B2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCE84701B5C943E0001C1B2 /* AssetsLibrary.framework */; };
 		5BCE84731B5C94520001C1B2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCE84721B5C94520001C1B2 /* MediaPlayer.framework */; };
-		5BCE84771B5C94980001C1B2 /* MiYiCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE84761B5C94980001C1B2 /* MiYiCamera.m */; };
-		5BCE84FF1B5CC6E90001C1B2 /* btn_cancel_a.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84E21B5CC6E90001C1B2 /* btn_cancel_a.png */; };
-		5BCE85001B5CC6E90001C1B2 /* btn_cancel_a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84E31B5CC6E90001C1B2 /* btn_cancel_a@2x.png */; };
-		5BCE85011B5CC6E90001C1B2 /* btn_video_flash_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84E51B5CC6E90001C1B2 /* btn_video_flash_close.png */; };
-		5BCE85021B5CC6E90001C1B2 /* btn_video_flash_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84E61B5CC6E90001C1B2 /* btn_video_flash_close@2x.png */; };
-		5BCE85031B5CC6E90001C1B2 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84E71B5CC6E90001C1B2 /* Contents.json */; };
-		5BCE85041B5CC6E90001C1B2 /* btn_video_flash_open.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84E91B5CC6E90001C1B2 /* btn_video_flash_open.png */; };
-		5BCE85051B5CC6E90001C1B2 /* btn_video_flash_open@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84EA1B5CC6E90001C1B2 /* btn_video_flash_open@2x.png */; };
-		5BCE85061B5CC6E90001C1B2 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84EB1B5CC6E90001C1B2 /* Contents.json */; };
-		5BCE85071B5CC6E90001C1B2 /* btn_video_flip_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84ED1B5CC6E90001C1B2 /* btn_video_flip_camera.png */; };
-		5BCE85081B5CC6E90001C1B2 /* btn_video_flip_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84EE1B5CC6E90001C1B2 /* btn_video_flip_camera@2x.png */; };
-		5BCE85091B5CC6E90001C1B2 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84EF1B5CC6E90001C1B2 /* Contents.json */; };
-		5BCE850A1B5CC6E90001C1B2 /* camera_focus_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84F11B5CC6E90001C1B2 /* camera_focus_red.png */; };
-		5BCE850B1B5CC6E90001C1B2 /* camera_focus_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84F21B5CC6E90001C1B2 /* camera_focus_red@2x.png */; };
-		5BCE850C1B5CC6E90001C1B2 /* icon_btn_camera_flash_auto.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84F41B5CC6E90001C1B2 /* icon_btn_camera_flash_auto.png */; };
-		5BCE850D1B5CC6E90001C1B2 /* icon_btn_camera_flash_auto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84F51B5CC6E90001C1B2 /* icon_btn_camera_flash_auto@2x.png */; };
-		5BCE850E1B5CC6E90001C1B2 /* icon_btn_camera_flash_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84F71B5CC6E90001C1B2 /* icon_btn_camera_flash_off.png */; };
-		5BCE850F1B5CC6E90001C1B2 /* icon_btn_camera_flash_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84F81B5CC6E90001C1B2 /* icon_btn_camera_flash_off@2x.png */; };
-		5BCE85101B5CC6E90001C1B2 /* icon_btn_camera_flash_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84FA1B5CC6E90001C1B2 /* icon_btn_camera_flash_on.png */; };
-		5BCE85111B5CC6E90001C1B2 /* icon_btn_camera_flash_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84FB1B5CC6E90001C1B2 /* icon_btn_camera_flash_on@2x.png */; };
-		5BCE85121B5CC6E90001C1B2 /* icon_facial_btn_take.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84FD1B5CC6E90001C1B2 /* icon_facial_btn_take.png */; };
-		5BCE85131B5CC6E90001C1B2 /* icon_facial_btn_take@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE84FE1B5CC6E90001C1B2 /* icon_facial_btn_take@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +58,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5BADAFCA1BE6043A007C1B8E /* Camera_Cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera_Cancel@2x.png"; sourceTree = "<group>"; };
+		5BADAFCB1BE6043A007C1B8E /* Camera_Cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera_Cancel@3x.png"; sourceTree = "<group>"; };
+		5BADAFCC1BE6043A007C1B8E /* Camera_Filming@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera_Filming@2x.png"; sourceTree = "<group>"; };
+		5BADAFCD1BE6043A007C1B8E /* Camera_Filming@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera_Filming@3x.png"; sourceTree = "<group>"; };
+		5BADAFCE1BE6043A007C1B8E /* Camera_Flash_Auto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera_Flash_Auto@2x.png"; sourceTree = "<group>"; };
+		5BADAFCF1BE6043A007C1B8E /* Camera_Flash_Auto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera_Flash_Auto@3x.png"; sourceTree = "<group>"; };
+		5BADAFD21BE6043A007C1B8E /* Camera_Flash_Off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera_Flash_Off@2x.png"; sourceTree = "<group>"; };
+		5BADAFD31BE6043A007C1B8E /* Camera_Flash_Off@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera_Flash_Off@3x.png"; sourceTree = "<group>"; };
+		5BADAFD41BE6043A007C1B8E /* Camera_Flash_On@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera_Flash_On@2x.png"; sourceTree = "<group>"; };
+		5BADAFD51BE6043A007C1B8E /* Camera_Flash_On@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera_Flash_On@3x.png"; sourceTree = "<group>"; };
+		5BADAFD61BE6043A007C1B8E /* Camera_Flash_Open@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera_Flash_Open@2x.png"; sourceTree = "<group>"; };
+		5BADAFD71BE6043A007C1B8E /* Camera_Flash_Open@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera_Flash_Open@3x.png"; sourceTree = "<group>"; };
+		5BADAFD81BE6043A007C1B8E /* Camera_Flip_Camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera_Flip_Camera@2x.png"; sourceTree = "<group>"; };
+		5BADAFD91BE6043A007C1B8E /* Camera_Flip_Camera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera_Flip_Camera@3x.png"; sourceTree = "<group>"; };
+		5BADAFDA1BE6043A007C1B8E /* Camera_Focus_Red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera_Focus_Red@2x.png"; sourceTree = "<group>"; };
+		5BADAFDB1BE6043A007C1B8E /* Camera_Focus_Red@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera_Focus_Red@3x.png"; sourceTree = "<group>"; };
+		5BADAFEE1BE6049D007C1B8E /* YXLCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLCamera.h; sourceTree = "<group>"; };
+		5BADAFEF1BE6049D007C1B8E /* YXLCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLCamera.m; sourceTree = "<group>"; };
+		5BADAFF21BE60751007C1B8E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BADAFF31BE60751007C1B8E /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		5BADAFF41BE60751007C1B8E /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		5BADAFF51BE60751007C1B8E /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		5BADAFF61BE60751007C1B8E /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		5BADAFF71BE60751007C1B8E /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		5BADAFF81BE60751007C1B8E /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		5BADAFF91BE60751007C1B8E /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		5BADAFFA1BE60751007C1B8E /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		5BADAFFB1BE60751007C1B8E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		5BADAFFC1BE60751007C1B8E /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		5BADAFFD1BE60751007C1B8E /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		5BADAFFE1BE60751007C1B8E /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		5BADAFFF1BE60751007C1B8E /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		5BADB0001BE60751007C1B8E /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		5BADB0011BE60751007C1B8E /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		5BADB0021BE60751007C1B8E /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		5BADB0031BE60751007C1B8E /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		5BADB0041BE60751007C1B8E /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		5BADB0051BE60751007C1B8E /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		5BADB0061BE60751007C1B8E /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		5BADB0071BE60751007C1B8E /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		5BADB0081BE60751007C1B8E /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		5BADB0091BE60751007C1B8E /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		5BADB00A1BE60751007C1B8E /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		5BADB00B1BE60751007C1B8E /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		5BCE84451B5C93C00001C1B2 /* Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCE84491B5C93C00001C1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BCE844A1B5C93C00001C1B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -68,29 +118,6 @@
 		5BCE846E1B5C94320001C1B2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		5BCE84701B5C943E0001C1B2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		5BCE84721B5C94520001C1B2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		5BCE84751B5C94980001C1B2 /* MiYiCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiYiCamera.h; sourceTree = "<group>"; };
-		5BCE84761B5C94980001C1B2 /* MiYiCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiYiCamera.m; sourceTree = "<group>"; };
-		5BCE84E21B5CC6E90001C1B2 /* btn_cancel_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_cancel_a.png; sourceTree = "<group>"; };
-		5BCE84E31B5CC6E90001C1B2 /* btn_cancel_a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_cancel_a@2x.png"; sourceTree = "<group>"; };
-		5BCE84E51B5CC6E90001C1B2 /* btn_video_flash_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_video_flash_close.png; sourceTree = "<group>"; };
-		5BCE84E61B5CC6E90001C1B2 /* btn_video_flash_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_video_flash_close@2x.png"; sourceTree = "<group>"; };
-		5BCE84E71B5CC6E90001C1B2 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
-		5BCE84E91B5CC6E90001C1B2 /* btn_video_flash_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_video_flash_open.png; sourceTree = "<group>"; };
-		5BCE84EA1B5CC6E90001C1B2 /* btn_video_flash_open@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_video_flash_open@2x.png"; sourceTree = "<group>"; };
-		5BCE84EB1B5CC6E90001C1B2 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
-		5BCE84ED1B5CC6E90001C1B2 /* btn_video_flip_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_video_flip_camera.png; sourceTree = "<group>"; };
-		5BCE84EE1B5CC6E90001C1B2 /* btn_video_flip_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_video_flip_camera@2x.png"; sourceTree = "<group>"; };
-		5BCE84EF1B5CC6E90001C1B2 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
-		5BCE84F11B5CC6E90001C1B2 /* camera_focus_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_focus_red.png; sourceTree = "<group>"; };
-		5BCE84F21B5CC6E90001C1B2 /* camera_focus_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_focus_red@2x.png"; sourceTree = "<group>"; };
-		5BCE84F41B5CC6E90001C1B2 /* icon_btn_camera_flash_auto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_btn_camera_flash_auto.png; sourceTree = "<group>"; };
-		5BCE84F51B5CC6E90001C1B2 /* icon_btn_camera_flash_auto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_btn_camera_flash_auto@2x.png"; sourceTree = "<group>"; };
-		5BCE84F71B5CC6E90001C1B2 /* icon_btn_camera_flash_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_btn_camera_flash_off.png; sourceTree = "<group>"; };
-		5BCE84F81B5CC6E90001C1B2 /* icon_btn_camera_flash_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_btn_camera_flash_off@2x.png"; sourceTree = "<group>"; };
-		5BCE84FA1B5CC6E90001C1B2 /* icon_btn_camera_flash_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_btn_camera_flash_on.png; sourceTree = "<group>"; };
-		5BCE84FB1B5CC6E90001C1B2 /* icon_btn_camera_flash_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_btn_camera_flash_on@2x.png"; sourceTree = "<group>"; };
-		5BCE84FD1B5CC6E90001C1B2 /* icon_facial_btn_take.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_facial_btn_take.png; sourceTree = "<group>"; };
-		5BCE84FE1B5CC6E90001C1B2 /* icon_facial_btn_take@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_facial_btn_take@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +141,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BADAFC81BE6043A007C1B8E /* YXLCamera */ = {
+			isa = PBXGroup;
+			children = (
+				5BADAFC91BE6043A007C1B8E /* CameraImageS */,
+				5BADAFEE1BE6049D007C1B8E /* YXLCamera.h */,
+				5BADAFEF1BE6049D007C1B8E /* YXLCamera.m */,
+			);
+			path = YXLCamera;
+			sourceTree = "<group>";
+		};
+		5BADAFC91BE6043A007C1B8E /* CameraImageS */ = {
+			isa = PBXGroup;
+			children = (
+				5BADAFCA1BE6043A007C1B8E /* Camera_Cancel@2x.png */,
+				5BADAFCB1BE6043A007C1B8E /* Camera_Cancel@3x.png */,
+				5BADAFCC1BE6043A007C1B8E /* Camera_Filming@2x.png */,
+				5BADAFCD1BE6043A007C1B8E /* Camera_Filming@3x.png */,
+				5BADAFCE1BE6043A007C1B8E /* Camera_Flash_Auto@2x.png */,
+				5BADAFCF1BE6043A007C1B8E /* Camera_Flash_Auto@3x.png */,
+				5BADAFD21BE6043A007C1B8E /* Camera_Flash_Off@2x.png */,
+				5BADAFD31BE6043A007C1B8E /* Camera_Flash_Off@3x.png */,
+				5BADAFD41BE6043A007C1B8E /* Camera_Flash_On@2x.png */,
+				5BADAFD51BE6043A007C1B8E /* Camera_Flash_On@3x.png */,
+				5BADAFD61BE6043A007C1B8E /* Camera_Flash_Open@2x.png */,
+				5BADAFD71BE6043A007C1B8E /* Camera_Flash_Open@3x.png */,
+				5BADAFD81BE6043A007C1B8E /* Camera_Flip_Camera@2x.png */,
+				5BADAFD91BE6043A007C1B8E /* Camera_Flip_Camera@3x.png */,
+				5BADAFDA1BE6043A007C1B8E /* Camera_Focus_Red@2x.png */,
+				5BADAFDB1BE6043A007C1B8E /* Camera_Focus_Red@3x.png */,
+			);
+			path = CameraImageS;
+			sourceTree = "<group>";
+		};
+		5BADAFF11BE60751007C1B8E /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				5BADAFF21BE60751007C1B8E /* Info.plist */,
+				5BADAFF31BE60751007C1B8E /* MASCompositeConstraint.h */,
+				5BADAFF41BE60751007C1B8E /* MASCompositeConstraint.m */,
+				5BADAFF51BE60751007C1B8E /* MASConstraint+Private.h */,
+				5BADAFF61BE60751007C1B8E /* MASConstraint.h */,
+				5BADAFF71BE60751007C1B8E /* MASConstraint.m */,
+				5BADAFF81BE60751007C1B8E /* MASConstraintMaker.h */,
+				5BADAFF91BE60751007C1B8E /* MASConstraintMaker.m */,
+				5BADAFFA1BE60751007C1B8E /* MASLayoutConstraint.h */,
+				5BADAFFB1BE60751007C1B8E /* MASLayoutConstraint.m */,
+				5BADAFFC1BE60751007C1B8E /* Masonry.h */,
+				5BADAFFD1BE60751007C1B8E /* MASUtilities.h */,
+				5BADAFFE1BE60751007C1B8E /* MASViewAttribute.h */,
+				5BADAFFF1BE60751007C1B8E /* MASViewAttribute.m */,
+				5BADB0001BE60751007C1B8E /* MASViewConstraint.h */,
+				5BADB0011BE60751007C1B8E /* MASViewConstraint.m */,
+				5BADB0021BE60751007C1B8E /* NSArray+MASAdditions.h */,
+				5BADB0031BE60751007C1B8E /* NSArray+MASAdditions.m */,
+				5BADB0041BE60751007C1B8E /* NSArray+MASShorthandAdditions.h */,
+				5BADB0051BE60751007C1B8E /* NSLayoutConstraint+MASDebugAdditions.h */,
+				5BADB0061BE60751007C1B8E /* NSLayoutConstraint+MASDebugAdditions.m */,
+				5BADB0071BE60751007C1B8E /* View+MASAdditions.h */,
+				5BADB0081BE60751007C1B8E /* View+MASAdditions.m */,
+				5BADB0091BE60751007C1B8E /* View+MASShorthandAdditions.h */,
+				5BADB00A1BE60751007C1B8E /* ViewController+MASAdditions.h */,
+				5BADB00B1BE60751007C1B8E /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
 		5BCE843C1B5C93BF0001C1B2 = {
 			isa = PBXGroup;
 			children = (
@@ -138,7 +231,8 @@
 		5BCE84471B5C93C00001C1B2 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
-				5BCE84741B5C947C0001C1B2 /* MiYiCamera */,
+				5BADAFF11BE60751007C1B8E /* Masonry */,
+				5BADAFC81BE6043A007C1B8E /* YXLCamera */,
 				5BCE844C1B5C93C00001C1B2 /* AppDelegate.h */,
 				5BCE844D1B5C93C00001C1B2 /* AppDelegate.m */,
 				5BCE844F1B5C93C00001C1B2 /* ViewController.h */,
@@ -175,116 +269,6 @@
 				5BCE84631B5C93C00001C1B2 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5BCE84741B5C947C0001C1B2 /* MiYiCamera */ = {
-			isa = PBXGroup;
-			children = (
-				5BCE84E01B5CC6E90001C1B2 /* 相机 */,
-				5BCE84751B5C94980001C1B2 /* MiYiCamera.h */,
-				5BCE84761B5C94980001C1B2 /* MiYiCamera.m */,
-			);
-			path = MiYiCamera;
-			sourceTree = "<group>";
-		};
-		5BCE84E01B5CC6E90001C1B2 /* 相机 */ = {
-			isa = PBXGroup;
-			children = (
-				5BCE84E11B5CC6E90001C1B2 /* btn_cancel_a.imageset */,
-				5BCE84E41B5CC6E90001C1B2 /* btn_video_flash_close.imageset */,
-				5BCE84E81B5CC6E90001C1B2 /* btn_video_flash_open.imageset */,
-				5BCE84EC1B5CC6E90001C1B2 /* btn_video_flip_camera.imageset */,
-				5BCE84F01B5CC6E90001C1B2 /* camera_focus_red.imageset */,
-				5BCE84F31B5CC6E90001C1B2 /* icon_btn_camera_flash_auto.imageset */,
-				5BCE84F61B5CC6E90001C1B2 /* icon_btn_camera_flash_off.imageset */,
-				5BCE84F91B5CC6E90001C1B2 /* icon_btn_camera_flash_on.imageset */,
-				5BCE84FC1B5CC6E90001C1B2 /* icon_facial_btn_take.imageset */,
-			);
-			path = "相机";
-			sourceTree = "<group>";
-		};
-		5BCE84E11B5CC6E90001C1B2 /* btn_cancel_a.imageset */ = {
-			isa = PBXGroup;
-			children = (
-				5BCE84E21B5CC6E90001C1B2 /* btn_cancel_a.png */,
-				5BCE84E31B5CC6E90001C1B2 /* btn_cancel_a@2x.png */,
-			);
-			path = btn_cancel_a.imageset;
-			sourceTree = "<group>";
-		};
-		5BCE84E41B5CC6E90001C1B2 /* btn_video_flash_close.imageset */ = {
-			isa = PBXGroup;
-			children = (
-				5BCE84E51B5CC6E90001C1B2 /* btn_video_flash_close.png */,
-				5BCE84E61B5CC6E90001C1B2 /* btn_video_flash_close@2x.png */,
-				5BCE84E71B5CC6E90001C1B2 /* Contents.json */,
-			);
-			path = btn_video_flash_close.imageset;
-			sourceTree = "<group>";
-		};
-		5BCE84E81B5CC6E90001C1B2 /* btn_video_flash_open.imageset */ = {
-			isa = PBXGroup;
-			children = (
-				5BCE84E91B5CC6E90001C1B2 /* btn_video_flash_open.png */,
-				5BCE84EA1B5CC6E90001C1B2 /* btn_video_flash_open@2x.png */,
-				5BCE84EB1B5CC6E90001C1B2 /* Contents.json */,
-			);
-			path = btn_video_flash_open.imageset;
-			sourceTree = "<group>";
-		};
-		5BCE84EC1B5CC6E90001C1B2 /* btn_video_flip_camera.imageset */ = {
-			isa = PBXGroup;
-			children = (
-				5BCE84ED1B5CC6E90001C1B2 /* btn_video_flip_camera.png */,
-				5BCE84EE1B5CC6E90001C1B2 /* btn_video_flip_camera@2x.png */,
-				5BCE84EF1B5CC6E90001C1B2 /* Contents.json */,
-			);
-			path = btn_video_flip_camera.imageset;
-			sourceTree = "<group>";
-		};
-		5BCE84F01B5CC6E90001C1B2 /* camera_focus_red.imageset */ = {
-			isa = PBXGroup;
-			children = (
-				5BCE84F11B5CC6E90001C1B2 /* camera_focus_red.png */,
-				5BCE84F21B5CC6E90001C1B2 /* camera_focus_red@2x.png */,
-			);
-			path = camera_focus_red.imageset;
-			sourceTree = "<group>";
-		};
-		5BCE84F31B5CC6E90001C1B2 /* icon_btn_camera_flash_auto.imageset */ = {
-			isa = PBXGroup;
-			children = (
-				5BCE84F41B5CC6E90001C1B2 /* icon_btn_camera_flash_auto.png */,
-				5BCE84F51B5CC6E90001C1B2 /* icon_btn_camera_flash_auto@2x.png */,
-			);
-			path = icon_btn_camera_flash_auto.imageset;
-			sourceTree = "<group>";
-		};
-		5BCE84F61B5CC6E90001C1B2 /* icon_btn_camera_flash_off.imageset */ = {
-			isa = PBXGroup;
-			children = (
-				5BCE84F71B5CC6E90001C1B2 /* icon_btn_camera_flash_off.png */,
-				5BCE84F81B5CC6E90001C1B2 /* icon_btn_camera_flash_off@2x.png */,
-			);
-			path = icon_btn_camera_flash_off.imageset;
-			sourceTree = "<group>";
-		};
-		5BCE84F91B5CC6E90001C1B2 /* icon_btn_camera_flash_on.imageset */ = {
-			isa = PBXGroup;
-			children = (
-				5BCE84FA1B5CC6E90001C1B2 /* icon_btn_camera_flash_on.png */,
-				5BCE84FB1B5CC6E90001C1B2 /* icon_btn_camera_flash_on@2x.png */,
-			);
-			path = icon_btn_camera_flash_on.imageset;
-			sourceTree = "<group>";
-		};
-		5BCE84FC1B5CC6E90001C1B2 /* icon_facial_btn_take.imageset */ = {
-			isa = PBXGroup;
-			children = (
-				5BCE84FD1B5CC6E90001C1B2 /* icon_facial_btn_take.png */,
-				5BCE84FE1B5CC6E90001C1B2 /* icon_facial_btn_take@2x.png */,
-			);
-			path = icon_facial_btn_take.imageset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,12 +315,12 @@
 		5BCE843D1B5C93BF0001C1B2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "叶星龙";
 				TargetAttributes = {
 					5BCE84441B5C93BF0001C1B2 = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = RA82TQQND8;
+						DevelopmentTeam = F8JVBMCMFN;
 					};
 					5BCE845D1B5C93C00001C1B2 = {
 						CreatedOnToolsVersion = 6.4;
@@ -368,30 +352,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BCE85041B5CC6E90001C1B2 /* btn_video_flash_open.png in Resources */,
-				5BCE84FF1B5CC6E90001C1B2 /* btn_cancel_a.png in Resources */,
+				5BADAFE01BE6043A007C1B8E /* Camera_Flash_Auto@2x.png in Resources */,
+				5BADAFED1BE6043A007C1B8E /* Camera_Focus_Red@3x.png in Resources */,
+				5BADAFEA1BE6043A007C1B8E /* Camera_Flip_Camera@2x.png in Resources */,
 				5BCE84541B5C93C00001C1B2 /* Main.storyboard in Resources */,
-				5BCE850E1B5CC6E90001C1B2 /* icon_btn_camera_flash_off.png in Resources */,
-				5BCE850F1B5CC6E90001C1B2 /* icon_btn_camera_flash_off@2x.png in Resources */,
-				5BCE85001B5CC6E90001C1B2 /* btn_cancel_a@2x.png in Resources */,
-				5BCE85081B5CC6E90001C1B2 /* btn_video_flip_camera@2x.png in Resources */,
-				5BCE85131B5CC6E90001C1B2 /* icon_facial_btn_take@2x.png in Resources */,
-				5BCE85071B5CC6E90001C1B2 /* btn_video_flip_camera.png in Resources */,
-				5BCE850C1B5CC6E90001C1B2 /* icon_btn_camera_flash_auto.png in Resources */,
-				5BCE850B1B5CC6E90001C1B2 /* camera_focus_red@2x.png in Resources */,
-				5BCE85121B5CC6E90001C1B2 /* icon_facial_btn_take.png in Resources */,
-				5BCE850A1B5CC6E90001C1B2 /* camera_focus_red.png in Resources */,
-				5BCE85051B5CC6E90001C1B2 /* btn_video_flash_open@2x.png in Resources */,
-				5BCE85031B5CC6E90001C1B2 /* Contents.json in Resources */,
+				5BADB00C1BE60751007C1B8E /* Info.plist in Resources */,
+				5BADAFE81BE6043A007C1B8E /* Camera_Flash_Open@2x.png in Resources */,
+				5BADAFEC1BE6043A007C1B8E /* Camera_Focus_Red@2x.png in Resources */,
+				5BADAFDE1BE6043A007C1B8E /* Camera_Filming@2x.png in Resources */,
+				5BADAFDF1BE6043A007C1B8E /* Camera_Filming@3x.png in Resources */,
 				5BCE84591B5C93C00001C1B2 /* LaunchScreen.xib in Resources */,
-				5BCE85011B5CC6E90001C1B2 /* btn_video_flash_close.png in Resources */,
-				5BCE85111B5CC6E90001C1B2 /* icon_btn_camera_flash_on@2x.png in Resources */,
+				5BADAFE61BE6043A007C1B8E /* Camera_Flash_On@2x.png in Resources */,
+				5BADAFE51BE6043A007C1B8E /* Camera_Flash_Off@3x.png in Resources */,
 				5BCE84561B5C93C00001C1B2 /* Images.xcassets in Resources */,
-				5BCE85061B5CC6E90001C1B2 /* Contents.json in Resources */,
-				5BCE850D1B5CC6E90001C1B2 /* icon_btn_camera_flash_auto@2x.png in Resources */,
-				5BCE85021B5CC6E90001C1B2 /* btn_video_flash_close@2x.png in Resources */,
-				5BCE85091B5CC6E90001C1B2 /* Contents.json in Resources */,
-				5BCE85101B5CC6E90001C1B2 /* icon_btn_camera_flash_on.png in Resources */,
+				5BADAFE71BE6043A007C1B8E /* Camera_Flash_On@3x.png in Resources */,
+				5BADAFDD1BE6043A007C1B8E /* Camera_Cancel@3x.png in Resources */,
+				5BADAFE91BE6043A007C1B8E /* Camera_Flash_Open@3x.png in Resources */,
+				5BADAFEB1BE6043A007C1B8E /* Camera_Flip_Camera@3x.png in Resources */,
+				5BADAFE41BE6043A007C1B8E /* Camera_Flash_Off@2x.png in Resources */,
+				5BADAFE11BE6043A007C1B8E /* Camera_Flash_Auto@3x.png in Resources */,
+				5BADAFDC1BE6043A007C1B8E /* Camera_Cancel@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,9 +389,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BCE84771B5C94980001C1B2 /* MiYiCamera.m in Sources */,
+				5BADB0141BE60751007C1B8E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				5BADB0121BE60751007C1B8E /* MASViewConstraint.m in Sources */,
+				5BADAFF01BE6049D007C1B8E /* YXLCamera.m in Sources */,
 				5BCE84511B5C93C00001C1B2 /* ViewController.m in Sources */,
 				5BCE844E1B5C93C00001C1B2 /* AppDelegate.m in Sources */,
+				5BADB0151BE60751007C1B8E /* View+MASAdditions.m in Sources */,
+				5BADB00D1BE60751007C1B8E /* MASCompositeConstraint.m in Sources */,
+				5BADB0111BE60751007C1B8E /* MASViewAttribute.m in Sources */,
+				5BADB00F1BE60751007C1B8E /* MASConstraintMaker.m in Sources */,
+				5BADB0131BE60751007C1B8E /* NSArray+MASAdditions.m in Sources */,
+				5BADB0161BE60751007C1B8E /* ViewController+MASAdditions.m in Sources */,
+				5BADB00E1BE60751007C1B8E /* MASConstraint.m in Sources */,
+				5BADB0101BE60751007C1B8E /* MASLayoutConstraint.m in Sources */,
 				5BCE844B1B5C93C00001C1B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +465,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -540,9 +531,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = Camera/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MiYi.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -554,9 +547,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = Camera/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MiYi.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -576,6 +571,7 @@
 				);
 				INFOPLIST_FILE = CameraTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MiYi.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camera.app/Camera";
 			};
@@ -591,6 +587,7 @@
 				);
 				INFOPLIST_FILE = CameraTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MiYi.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camera.app/Camera";
 			};
